@@ -1,0 +1,8 @@
+@import "_variables.scss";
+
+
+body {
+  // background-color: red;
+  // 背景に画像を指定したいときの例
+  background-image: url("#{$backgroundPath}/dummy.png");
+}

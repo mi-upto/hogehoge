@@ -1,0 +1,8 @@
+@import "_variables.scss";
+
+// 関数を定義
+@mixin screenMin($break-point) {
+  @media screen and (min-width: $break-point) {
+    @content;
+  }
+}
